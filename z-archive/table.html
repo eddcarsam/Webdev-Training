@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/table.css">
+</head>
+
+<body>
+    <!-- 
+        Tables are 2-D structures to represent data or make structures
+
+
+        tags used in Tables
+
+            <table> the main container
+            <tr> table row
+            <td> table data
+            <th> table header
+
+
+
+     -->
+
+
+
+    <table class="table spacingBelow">
+        <!-- starting of 1st row -->
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+
+        </tr>
+        <!-- ending of 1st row -->
+        <!-- starting of 2nd row -->
+        <tr>
+            <td>01</td>
+            <td>Eddie</td>
+            <td>20</td>
+        </tr>
+        <!-- ending of 2nd row -->
+        <tr>
+            <td>02</td>
+            <td>Huzaifa</td>
+            <td>27</td>
+            <td>21</td>
+        </tr>
+
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <p class="phighlight">Staff Record </p>
+
+    <table class="staff">
+        <tr>
+            <th>Employee ID</th>
+            <th>First Name </th>
+            <th>Last name</th>
+            <th>Department</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Eddie</td>
+            <td>Lee</td>
+            <td>Cleaner</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Peter</td>
+            <td>Chan</td>
+            <td>Account</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Sam</td>
+            <td>Wong</td>
+            <td>Call Center</td>
+        </tr>
+
+        <td>4</td>
+        <td>Eric</td>
+        <td>Ho</td>
+        <td>Fiance</td>
+        </tr>
+
+    </table>
+    <br>
+
+    <span class="pend">The END</span>
+
+    <br>
+    <br>
+
+    <table class="staff">
+        <tr>
+            <th>data 1</th>
+            <th>data 2</th>
+            <th>data 3</th>
+            <th>data 4</th>
+            <th>data 5</th>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+            <td>data 4</td>
+            <td>data 5</td>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+            <td>data 4</td>
+            <td>data 5</td>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+            <td>data 4</td>
+            <td>data 5</td>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+            <td>data 4</td>
+            <td>data 5</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <table class="table">
+        <tr>
+            <th style="width: 10%;"></th>
+            <th style="width: 80%;"></th>
+            <th style="width: 10%;"></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+    <br>
+    <br>
+    <table class="table">
+        <tr>
+            <th style="width: 45%;"></th>
+            <th style="width: 10%;"></th>
+            <th style="width: 45%;"></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+    <br>
+    <br>
+
+    <table class="table">
+        <tr style="height: 20%;">
+            <th style="width: 60%;"></th>
+            <th style="width: 20%;"></th>
+            <th style="width: 20%;"></th>
+        </tr>
+        <tr style="height: 80%">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- merging table columns and rows
+        We have two attributes for that
+
+        rowspan: to merge the rows
+        colspan: to merge the columns
+    -->
+
+
+    <table class="table">
+        <tr>
+            <td colspan="3">data 1</td>
+            <!-- <td>data 2</td>
+            <td>data 3</td> -->
+        </tr>
+        <tr>
+            <td rowspan="2">data 1 S</td>
+            <td rowspan="2">data 2</td>
+            <td>data 3</td>
+        </tr>
+        <tr>
+            <!-- <td>data 1 S</td> -->
+            <td>data 2 S</td>
+            <!-- <td rowspan="3">data 3 S</td> -->
+        </tr>
+        <tr>
+            <td colspan="2">data 1</td>
+            <!-- <td >data 2</td> -->
+            <!-- <td>data 3</td> -->
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <!-- <td>data 3</td> -->
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+
+    <table class="table">
+        <tr class="title">
+            <td colspan="2" style="width: 66%;">Name</td>
+            <!-- <td></td>
+        <td></td> -->
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        </table>
+        <br>
+        <br>
+        <br>
+        <table class="table">
+            <tr class="title">
+                <td rowspan="3" width="30%">April</td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+        </table>
+
+        <p>test </p>
+</body>
+
+</html>

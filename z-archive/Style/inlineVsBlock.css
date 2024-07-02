@@ -1,0 +1,16 @@
+
+body{
+    margin: 0;
+}
+.pTag{
+    background-color: aqua;
+
+    display: inline;
+
+}
+
+.spanTag{
+    background-color: red;
+
+    display: block;
+}

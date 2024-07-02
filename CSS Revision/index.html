@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS Revision/styles/style.css" />
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!--
+        3 ways to apply css to html
+
+            1) Inline CSS
+            2) Style tag CSS
+            3) Stylesheet CSS (the recommended way)
+    -->
+
+    <div style="color: red;">I am red one</div>
+    <div style="color: rgb(254, 6, 6);">I am red one</div>
+    <div style="color: #FF0000;">I am red one</div>
+
+    <div style="color: red; font-size: 20px;">I am big and red</div>
+
+    <!--CSS Selectors
+        1) Class (common selector)
+        2) ID (unique selector)
+    -->
+
+    <div class="redOne">Red text</div>
+    <div class="redOne">Red text</div>
+    <div class="redOne">Red text</div>
+    <div class="redOne bigOne">big and red</div>
+    <div id="myId">id here</div>
+
+    <!-- Border Box Concept -->
+    <br />
+
+    <div class="box">BOX</div>
+
+    <!-- <div class="box1">Box1</div>
+<div class="box2">Box2</div>
+<div class="box3">Box3</div> -->
+
+    <!-- Inline vs Block
+
+Block Level Elements:
+    They take 100% of the space available to them
+    They always start from a new line
+    Example: div, p, all semantic tags
+
+
+Inline Level Elements:
+    They only take the required space to exist
+    They do not start from a new line
+    Example: span, img, a and all formatting tags
+
+-->
+
+    <br>
+    <br>
+
+    <div class="divTag">Block Level Element</div>
+    <div>hi there</div>
+
+    <p class="pTag">some text</p>
+    <p>some text</p>
+    <p>some text</p>
+
+    <br>
+    <br>
+
+    <span class="spanTag">hi there</span>
+    <span>hi there</span>
+    <span>hi there</span>
+    <span>hi there</span>
+    <span>hi there</span>
+    <span>hi there</span>
+
+    <br>
+
+    <h1>Data1</h1>
+    <h1>Data2</h1>
+    <h1>Data3</h1>
+    <h3>Data1</h3>
+    <h3>Data2</h3>
+    <h3>Data3</h3>
+    <h3>Data4</h3>
+    <br>
+    <br>
+
+    <table class="table1">
+        <tr>
+            <th>Data1</th>
+            <th>Data2</th>
+            <th>Data3</th>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+    </table>
+    <br>
+
+    <table class="table2">
+        <tr>
+            <td style="width: 10%;">Data</td>
+            <td style="width: 80%;">Data</td>
+            <td style="width: 10%;">Data</td>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table class="table3">
+        <tr>
+            <td style="width: 40%;">Data</td>
+            <td style="width: 20%;">Data</td>
+            <td style="width: 40%;">Data</td>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    <table class="table4">
+        <tr style="height: 30%;">
+            <td style="width: 80%;">Data</td>
+            <td style="width: 10%;">Data</td>
+            <td style="width: 10%;">Data</td>
+        </tr>
+        <tr style="height: 70%;">
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <!-- For mergin in tables
+    colspan: to merge columns
+    rowspan: to merge rows
+-->
+
+    <table class="table5">
+        <tr>
+            <td colspan="2">data 1</td>
+            <!-- <td>data 2</td> -->
+            <td>data 3</td>
+            <td>data 4</td>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+            <td>data 4</td>
+        </tr>
+        <tr>
+            <td rowspan="2">data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+            <td>data 4</td>
+        </tr>
+        <tr>
+            <!-- <td>data 1</td> -->
+            <td>data 2</td>
+            <td>data 3</td>
+            <td>data 4</td>
+        </tr>
+    </table>
+    </table>
+</body>
+</html>

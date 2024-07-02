@@ -1,0 +1,176 @@
+/* * is called a universal selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.redOne {
+    color: red;
+}
+
+.bigOne {
+    font-size: 22px;
+}
+
+#myId {
+    background-color: rgb(222, 122, 255);
+}
+
+
+
+
+
+/* Border Box Layers
+    margin: The spacing outside the container
+    Padding: The spacing inside the container
+    Border: The boundary around the container
+    blue box: it represents width x height
+*/
+
+.box {
+    background-color: rgb(196, 217, 255);
+    width: 201px;
+    height: 200px;
+
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+
+    /* short cut for the 4 lines above */
+
+    margin: 10px 20px 0 40px;
+    /* margin: 10px 20px; */
+
+    padding: 80px 20px 30px 80px;
+
+    /* border-width: 10px;
+    border-style: double dashed solid dotted;
+    border-color: red yellow green blue; */
+
+    border: 2px solid red;
+
+    /* to curve the border */
+    border-radius: 50%;
+
+}
+
+.box1 {
+    background-color: lightblue;
+    width: 245px;
+    height: 210px;
+    margin-top: 0px;
+    margin-left: 12px;
+}
+
+.box2 {
+    background-color: lightcoral;
+    width: 220px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 310px;
+}
+
+.box3 {
+    background-color: lightgreen;
+    width: 260px;
+    height: 170px;
+    margin-top: 60px;
+    margin-left: 600px;
+
+}
+
+.divTag {
+    background-color: red;
+
+    display: inline;
+}
+
+.pTag {
+    background-color: blue;
+}
+
+.spanTag {
+    background-color: red;
+    display: block;
+}
+
+h1,
+h3 {
+    background-color: lightgreen;
+    display: inline;
+}
+
+
+.table1 {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+
+    /* to get rid of the gaps in between the borders */
+    border-collapse: collapse;
+
+}
+
+.table1 th {
+    border: 1px solid black;
+}
+
+.table1 td {
+    border: 1px solid black;
+    /* text-align: center;
+    font-weight: bold; */
+}
+
+.table2 {
+    width: 80%;
+    height: 200px;
+    border: 1px solid black;
+
+    /* to get rid of the gaps in between the borders */
+    border-collapse: collapse;
+
+}
+
+.table2 td {
+    border: 1px solid black;
+}
+
+.table3 {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+
+    /* to get rid of the gaps in between the borders */
+    border-collapse: collapse;
+}
+
+.table3 td {
+    border: 1px solid black;
+}
+
+.table4 {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+
+    /* to get rid of the gaps in between the borders */
+    border-collapse: collapse;
+}
+
+.table4 td {
+    border: 1px solid black;
+}
+.table5 {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+
+    /* to get rid of the gaps in between the borders */
+    border-collapse: collapse;
+}
+
+.table5 td {
+    border: 1px solid black;
+}

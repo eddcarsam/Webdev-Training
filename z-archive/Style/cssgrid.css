@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  height: 80vh;
+  border: 2px solid black;
+
+  margin: auto;
+  margin-top: 20px;
+
+  /* Grid Parent Properties */
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.child1 {
+  /* background-color: lightblue; */
+  border: 2px solid blue;
+}
+
+.child2 {
+  /* background-color: lightgoldenrodyellow; */
+  border: 2px solid blue;
+}
+
+.child3 {
+  /* background-color: lightgreen; */
+  border: 2px solid blue;
+}
+.child4 {
+  /* background-color: lightslategray; */
+  border: 2px solid blue;
+}
+
+.child5 {
+  /* background-color: violet; */
+  border: 2px solid blue;
+}
+.child6 {
+  /* background-color: dodgerblue; */
+  border: 2px solid blue;
+}
+
+.child7 {
+  /* background-color: lightseagreen; */
+  border: 2px solid blue;
+}
+
+.child8 {
+  /* background-color: lightcoral; */
+  border: 2px solid blue;
+}
+.child9 {
+  /* background-color: lightslategray; */
+  border: 2px solid blue;
+}

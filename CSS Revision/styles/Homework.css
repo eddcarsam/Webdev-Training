@@ -1,0 +1,71 @@
+/* Exercise 1 */
+
+*{
+    box-sizing: border-box;
+
+}
+.color1{
+    
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+}
+.box1{
+    border: 2px solid rgb(70, 17, 17);
+}
+
+/* Exercise 2 */
+.color2{
+    background-color: green;
+    display: inline-block;
+    width: 240px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+ .box2{
+    border: 2px solid rgb(70, 17, 17);
+    padding: 10px;
+} 
+/* Exercise 3 */
+/* Exercise 4 */
+/* Exercise 5 */
+.table-1{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table-1 td{
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+}
+.col1{
+   text-align: center;
+}
+/* Exercise 6 */
+.table-2{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table-2 td{
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+}
+.col2{
+   text-align: center;
+}
+/* Exercise 7 */
+.table-3{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table-3 td {
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+.col3{
+   text-align: center;
+}

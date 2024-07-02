@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.tableWebLayout {
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+  border-collapse: collapse;
+}
+
+.tableWebLayout td {
+  border: 1px solid black;
+}
+
+.navTd {
+  background-color: rgb(117, 142, 3);
+}
+.navContainer {
+  padding: 10px 50px;
+  height: 100%;
+  color: white;
+}
+
+.linksContainer {
+  display: inline;
+  float: left;
+  margin-top: 35px;
+}
+
+.linksContainer li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.logoContainer {
+  display: inline;
+  float: right;
+  margin-top: 10px;
+}
+
+.contactBtn {
+  background-color: rgb(80, 152, 185);
+  padding: 8px 14px;
+  border-radius: 20px;
+}

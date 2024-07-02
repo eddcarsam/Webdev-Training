@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.navbarcontent {
+  background: url(../image/japan.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  padding: 40px;
+  text-align: right;
+}
+
+.navbarcontent a {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  font-family: unset;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbarcontent a:hover {
+  color: red;
+  font-family: "open sans";
+}
+
+.bodycontent {
+  background-color: rgb(92, 64, 51);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 20px;
+  color: lightblue;
+}
+
+.Gallery1 {
+  border: 1px solid blue;
+  margin-right: 20px;
+}
+.Gallery2 {
+  border: 1px solid red;
+  margin-right: 20px;
+}
+
+.Gallery3 {
+  border: 1px solid black;
+  margin-right: 20px;
+}
+.Gallery4 {
+  border: 1px solid blue;
+  margin-right: 20px;
+}
+.Gallery5 {
+  border: 1px solid red;
+  margin-right: 20px;
+}
+
+.Gallery6 {
+  border: 1px solid black;
+  margin-right: 20px;
+}
+.Gallery7 {
+  border: 1px solid blue;
+  margin-right: 20px;
+}
+.Gallery8 {
+  border: 1px solid red;
+  margin-right: 20px;
+}
+
+.Gallery9 {
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+.footercontent {
+  background-color: rgb(92, 64, 51);
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}

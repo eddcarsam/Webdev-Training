@@ -1,0 +1,101 @@
+.phighlight{
+    background-color: purple;
+    color:white
+}
+.pend{
+    background-color: red;
+    display: inline;
+    
+}
+
+.spacingBelow{
+    margin-bottom: 300px;
+}
+
+.table{
+    border: 1px solid black;
+    width: 70%;
+    height: 200px;
+
+    /* to get rid of the gaps in between the cells */
+    border-collapse: collapse;
+
+
+    /* to add a distance inbetween your cells and table container */
+    /* border-spacing: 10px; */
+
+}
+
+
+/* select all the td tags in the table container */
+.table td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+
+.table th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.staff{
+border: 1px solid black;
+width: 50%;
+border-collapse: collapse;
+}
+
+.staff th{
+    border: 1px solid blue;
+    background-color: yellow;
+    padding: 10px;
+    
+}
+.staff td{
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.data{
+    text-align: center;
+    ;
+}
+
+
+.table1{
+    border: 1px solid black;
+    width: 70%;
+    height: 200px;
+
+    /* to get rid of the gaps in between the cells */
+    /* border-collapse: collapse; */
+
+
+    /* to add a distance inbetween your cells and table container */
+    border-spacing: 5px;
+
+}
+.table1 td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;       
+}
+
+.table1 th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.md{
+color:blue;
+}
+
