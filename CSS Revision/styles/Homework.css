@@ -28,6 +28,48 @@
     padding: 10px;
 } 
 /* Exercise 3 */
+.box3{
+    border: 1px solid rgb(70, 17, 17);
+    padding: 10px;
+    background-color: grey;
+    width: 700px;
+    margin: 20px;
+   
+}
+.box3 .bg{
+    background-color: blue;
+    margin-top: ;
+}
+.color1-1{
+    background-color: lightgreen;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.color2-2{
+    background-color: pink;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+.color3-3{
+    background-color: orange;
+    width: 50px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+.color4-4{
+    background-color: lightblue;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+
+    margin: 10px;
+}
+
 /* Exercise 4 */
 /* Exercise 5 */
 .table-1{
