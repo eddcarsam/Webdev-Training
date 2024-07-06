@@ -2,6 +2,8 @@
 
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 
 }
 .color1{
@@ -28,20 +30,37 @@
     padding: 10px;
 } 
 /* Exercise 3 */
+.boxesContainer{
+    width: 90%;
+    height: 350px;
+    background-color: navy;
+   padding: 30px;
+   margin: auto;
+    
+}
 .box3{
-    border: 1px solid rgb(70, 17, 17);
-    padding: 10px;
-    background-color: grey;
-    width: 700px;
-    margin: 20px;
+    height: 300px;
+    width: 45%;
+    background-color: skyblue;
+    float: left;
+    padding: 20px;
+
    
+}
+.box4{
+    height: 300px;
+
+    width: 45%;
+    background-color: skyblue;
+
+    float: right;
 }
 .box3 .bg{
     background-color: blue;
-    margin-top: ;
+    /* margin-top: ; */
 }
 .color1-1{
-    background-color: lightgreen;
+    oackground-color: lightgreen;
     width: 100px;
     height: 30px;
     padding: 10px;
