@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../NBA"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "NBA"
+	}
+}
